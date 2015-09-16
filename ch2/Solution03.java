@@ -6,7 +6,7 @@ package solution;
 @Date--Sep/15/2015
 */
 
-public class Solution_2_3 {
+public class Solution03 {
 	
 	//This method is to delete the middle element in the linked list
 	public static void deleteMiddle(LinkedListNode head){

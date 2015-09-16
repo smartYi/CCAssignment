@@ -7,7 +7,7 @@ import java.util.HashSet;
 @Date--Sep/15/2015
 */
 
-public class Solution_2_1 {
+public class Solution01 {
 	
 	//This method is to remove duplicates in a unsorted linked list
 	public static LinkedListNode removeDuplicates(LinkedListNode head){

@@ -6,7 +6,7 @@ package solution;
 @Date--Sep/15/2015
 */
 
-public class Solution_2_8 {
+public class Solution08 {
 	//This method is to detect a loop in a corrupted linked list
 	public static LinkedListNode isLoop(LinkedListNode head){
 		//If head is null, return null

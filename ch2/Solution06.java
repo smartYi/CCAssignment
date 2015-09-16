@@ -6,7 +6,7 @@ package solution;
 @Date--Sep/15/2015
 */
 
-public class Solution_2_6 {
+public class Solution06 {
 	
 	//This method is to determine a linked list is palindrome or not
 	//Use runner techniques

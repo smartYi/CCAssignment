@@ -6,7 +6,7 @@ package solution;
 @Date--Sep/15/2015
 */
 
-public class Solution_2_7 {
+public class Solution07 {
 	
 	//This method is to determine whether two linked lists are intersected
 	public static LinkedListNode isIntersected(LinkedListNode h1, LinkedListNode h2){
@@ -19,11 +19,14 @@ public class Solution_2_7 {
 		
 		if(result1.tail!=result2.tail) return null;
 		
+		//Determine which list is shorter
 		LinkedListNode shorter = result1.size<result2.size?h1:h2;
 		LinkedListNode longer = result1.size<result2.size?h2:h1;
 		
+		//Chop off the longer list to the same length of the shorter list
 		longer = getKthNode(longer, Math.abs(result1.size-result2.size));
 		
+		//Compare and return 
 		while(shorter!=longer){
 			shorter = shorter.next;
 			longer = longer.next;

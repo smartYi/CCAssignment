@@ -6,7 +6,7 @@ package solution;
 @Date--Sep/15/2015
 */
 
-public class Solution_2_5{
+public class Solution05{
 	
 	//This method is to add two linked lists
 	public static LinkedListNode addLists(LinkedListNode l1, LinkedListNode l2,int carry ){

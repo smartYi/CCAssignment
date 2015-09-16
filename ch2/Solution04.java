@@ -6,7 +6,7 @@ package solution;
 @Date--Sep/15/2015
 */
 
-public class Solution_2_4 {
+public class Solution04 {
 	
 	//This method is to partition a linked list
 	public static LinkedListNode partition(LinkedListNode node, int x){
