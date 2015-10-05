@@ -11,7 +11,8 @@ import java.util.EmptyStackException;
  * push(item): Push the item to the top of the stack;
  * peek(): Return the item of the stack but do not remove it;
  * isEmpty(): Return true if and only if the Stack is empty.
- * 
+ * </p>
+ * This class file is to solve the follow-up question.
  * @author qiuyi
  * @since Sep/19/2015
  * @version 1.0 

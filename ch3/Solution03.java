@@ -13,7 +13,8 @@ import java.util.EmptyStackException;
  * isEmpty(): Return true if and only if the Stack is empty.
  * In this well-designed stack, each sub-stack has a limitation capacity and if the sub-stack size
  * exceeds the limitation, another new sub-stack is created. 
- * 
+ * </p>
+ * This class file is to solve the follow-up question.
  * @author qiuyi
  * @since Sep/19/2015
  * @version 1.0
