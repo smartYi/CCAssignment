@@ -7,6 +7,11 @@ import java.util.HashSet;
 @Date--Sep/15/2015
 */
 
+/*Follow-up discussion: If no other space is available, two iterate pointers are needed to remove duplicates.
+/*A current pointer which iterates through the linked list, and another runner pointer which checks all
+/*subsequent nodes for duplicates.
+/*The code is very simple, and it contains two loop, so the runtime of this method is O(n^2).
+
 public class Solution01 {
 	
 	//This method is to remove duplicates in a unsorted linked list

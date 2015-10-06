@@ -9,15 +9,9 @@ package solution;
 public class Solution07 {
 	//These matrixes is going to be rotated
 	
-	private static int[][] matrix1 = {{1,2,3,4},
-	                   {5,6,7,8},
-					   {3,6,4,9},
-					   {1,5,9,3}};
+	private static int[][] matrix1 = {{1,2,3,4},5,6,7,8},{3,6,4,9},{1,5,9,3}};
 	
-	private static int[][] matrix2 = {{20,12,32,12},
-					   {45,27,19,41},
-					   {29,37,51,73},
-					   {36,23,57,81}};
+	private static int[][] matrix2 = {{20,12,32,12},{45,27,19,41},{29,37,51,73},{36,23,57,81}};
 	
 	//This function is to rotate N*N matrix by 90 degrees
 	

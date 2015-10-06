@@ -6,6 +6,12 @@ package solution;
 @Date--Sep/14/2015
 */
 
+
+/*Follow-up discussion:
+/*If no other data structures can be used, we can simply iterate the string with two loops;
+/*The outer loop iterates each element in the string and the inner loop check all the subsequent 
+/*element is unique or not.
+/*The code is very simple, and the runtime of this method is O(n^2).
 import java.util.*;
 
 public class Solution01 {

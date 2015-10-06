@@ -9,15 +9,9 @@ package solution;
 public class Solution08 {
 	//These matrixes is going to be rotated
 	
-	private static int[][] matrix1 = {{1,2,3,4},
-		                              {5,0,7,8},
-						              {3,6,4,9},
-						              {1,3,0,9}};
+	private static int[][] matrix1 = {{1,2,3,4},{5,0,7,8},{3,6,4,9},{1,3,0,9}};
 		
-	private static int[][] matrix2 = {{0,12,32,12},
-						              {45,27,19,41},
-						              {29,37,51,73},
-						              {36,23,57,0}};
+	private static int[][] matrix2 = {{0,12,32,12},{45,27,19,41},{29,37,51,73},{36,23,57,0}};
 	
 	//This function is to nullify a matrix
 	
